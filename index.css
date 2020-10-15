@@ -1,0 +1,71 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+  
+body
+{
+    height: 100vh;
+    width: 100vw;
+}
+.bodcon
+{
+    height:100vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    background-image: url("crys.jpg");
+}
+.rectcon
+{
+    padding-left:50vw ;
+    padding-top: 50vh;
+}
+.rect
+{
+    text-align: center;
+    transform:translate(-50%,-50%) ;
+    background-color: rgba(255, 255, 255, 0.411);
+    padding: 10px;
+    width:200px;
+    border-radius: 10px;
+}
+.btn p
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 10px;
+    
+}
+.btn
+{
+    height: 40px;
+    background-color: tomato;
+    padding: 1px;
+    width: 95px;
+    margin: 0 auto;
+    border-radius: 7px;
+   
+}
+.tex
+{
+    margin:0 auto;
+    padding-top: 100vh;
+    text-align: center;
+    transform: translate(0,-50%);
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+.us1 img
+{
+    height:30px;
+    
+
+}
+.us1
+{
+    background-color:wheat;
+}
